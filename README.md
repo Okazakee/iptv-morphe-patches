@@ -1,16 +1,14 @@
-# 👋🧩 Morphe Patches template
+# 👋🧩 IPTV Morphe Patches
 
-Template repository for Morphe Patches.
+Custom Morphe patches for **IPTV Pro Stream Player** (`com.iptvprostreamplayer.v1`).
 
-## ❓ About
-
-Patches for apps I like.
-
-<!-- TODO: Update this about section with a brief introduction/summary about this repo and what it offers. -->
+Unlocks the Pro subscription locally by bypassing the Firebase `subscription_needed` flag and forcing the RevenueCat `pro` entitlement to active. Works fully offline — no server validation.
 
 ### How to use these patches
 
 Click here to add these patches to Morphe: https://morphe.software/add-source?github=Okazakee/iptv-morphe-patches
+
+In Morphe Manager, add source `Okazakee/iptv-morphe-patches`, select **Unlock Pro (IPTV)** and patch your APK.
 
 ## 🩹 Patches list
 
@@ -44,4 +42,4 @@ See the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation
 
 ## 📜 License
 
-UserXYZ Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+IPTV Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)

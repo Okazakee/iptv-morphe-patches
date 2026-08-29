@@ -4,7 +4,7 @@ patches {
     about {
         name = "IPTV IPTV patches"
         description = "Unlock Pro for IPTV Pro Stream Player (com.iptvprostreamplayer.v1) - bypasses Firebase subscription_needed and RevenueCat pro entitlement"
-        source = "https://github.com/okazakee/iptv-morphe-patches"
+        source = "git@github.com:Okazakee/iptv-morphe-patches.git"
         author = "okazakee"
         contact = "na"
         website = "na"

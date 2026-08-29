@@ -1,4 +1,4 @@
-## [1.1.1](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.1.0...v1.1.1) (2026-08-29)
+## [1.0.0-dev.3](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-08-29)
 
 ### 🐛 Bug Fixes
 

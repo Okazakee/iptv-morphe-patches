@@ -22,9 +22,9 @@ val installSourcePatch = bytecodePatch(
 
     execute {
         // Lcom/pairip/licensecheck/LicenseClient;->checkLicense(Landroid/content/Context;)V
-        // Skip licensing, set state to FULL_CHECK_OK
         try {
             LicenseCheckFingerprint.method.toMutable().apply {
+                instructions.clear()
                 addInstructions(0, """
                     sget-object v0, Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;->FULL_CHECK_OK:Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;
                     sput-object v0, Lcom/pairip/licensecheck/LicenseClient;->licenseCheckState:Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;
@@ -32,17 +32,17 @@ val installSourcePatch = bytecodePatch(
                 """.trimIndent())
             }
         } catch (_: Exception) {
-            // fallback no-op
             try {
                 LicenseCheckFingerprint.method.toMutable().apply {
+                    instructions.clear()
                     addInstructions(0, "return-void")
                 }
             } catch (_: Exception) {}
         }
 
-        // Lcom/pairip/licensecheck/LicenseClient;->performLocalInstallerCheck()Z -> true
         try {
             LocalInstallerCheckFingerprint.method.toMutable().apply {
+                instructions.clear()
                 addInstructions(0, """
                     const/4 v0, 0x1
                     return v0
@@ -50,19 +50,21 @@ val installSourcePatch = bytecodePatch(
             }
         } catch (_: Exception) {}
 
-        // Kill paywall/error dialogs even if triggered
         try {
             LicenseActivityOnStartFingerprint.method.toMutable().apply {
+                instructions.clear()
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}
         try {
             LicenseActivityPaywallFingerprint.method.toMutable().apply {
+                instructions.clear()
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}
         try {
             LicenseActivityErrorDialogFingerprint.method.toMutable().apply {
+                instructions.clear()
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}

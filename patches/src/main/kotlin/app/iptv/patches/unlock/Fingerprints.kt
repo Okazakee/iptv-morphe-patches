@@ -51,3 +51,22 @@ object ProEntitlementXFingerprint : Fingerprint(
         string("pro")
     )
 )
+
+// Pairip license install source checks
+object LicenseCheckFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseClient;",
+    name = "checkLicense",
+    returnType = "V",
+    filters = listOf(
+        string("Skipping license check in isolated process.")
+    )
+)
+
+object LocalInstallerCheckFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseClient;",
+    name = "performLocalInstallerCheck",
+    returnType = "Z",
+    filters = listOf(
+        string("Local install check failed due to wrong installer.")
+    )
+)

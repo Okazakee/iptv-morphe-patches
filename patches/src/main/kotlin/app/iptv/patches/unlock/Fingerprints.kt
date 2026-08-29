@@ -70,3 +70,30 @@ object LocalInstallerCheckFingerprint : Fingerprint(
         string("Local install check failed due to wrong installer.")
     )
 )
+
+object LicenseActivityOnStartFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseActivity;",
+    name = "onStart",
+    returnType = "V",
+    filters = listOf(
+        string("activitytype")
+    )
+)
+
+object LicenseActivityPaywallFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseActivity;",
+    name = "showPaywallAndCloseApp",
+    returnType = "V",
+    filters = listOf(
+        string("paywallintent")
+    )
+)
+
+object LicenseActivityErrorDialogFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/licensecheck/LicenseActivity;",
+    name = "showErrorDialog",
+    returnType = "V",
+    filters = listOf(
+        string("Check that Google Play is enabled on your device")
+    )
+)

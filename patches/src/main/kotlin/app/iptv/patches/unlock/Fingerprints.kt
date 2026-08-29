@@ -92,8 +92,5 @@ object LicenseActivityPaywallFingerprint : Fingerprint(
 object LicenseActivityErrorDialogFingerprint : Fingerprint(
     definingClass = "Lcom/pairip/licensecheck/LicenseActivity;",
     name = "showErrorDialog",
-    returnType = "V",
-    filters = listOf(
-        string("Check that Google Play is enabled on your device")
-    )
+    returnType = "V"
 )

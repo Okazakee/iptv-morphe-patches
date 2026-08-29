@@ -1,3 +1,9 @@
+## [1.0.0-dev.3](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.0-dev.2...v1.0.0-dev.3) (2026-08-29)
+
+### 🐛 Bug Fixes
+
+* fully kill Pairip paywall activity (onStart/paywall/error) and set FULL_CHECK_OK ([c02d6c1](https://github.com/Okazakee/iptv-morphe-patches/commit/c02d6c1dd1b1ef258caa8b9ba97d17b349fc1e4a))
+
 ## [1.0.0-dev.2](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-29)
 
 ### ✨ New Features

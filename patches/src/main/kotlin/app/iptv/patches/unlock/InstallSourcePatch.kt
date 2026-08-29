@@ -1,7 +1,6 @@
 package app.iptv.patches.unlock
 
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
-import app.morphe.patcher.extensions.instructions
 import app.morphe.patcher.patch.bytecodePatch
 import app.morphe.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 
@@ -25,7 +24,7 @@ val installSourcePatch = bytecodePatch(
         // Lcom/pairip/licensecheck/LicenseClient;->checkLicense(Landroid/content/Context;)V
         try {
             LicenseCheckFingerprint.method.toMutable().apply {
-                instructions.clear()
+                implementation!!.instructions.clear()
                 addInstructions(0, """
                     sget-object v0, Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;->FULL_CHECK_OK:Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;
                     sput-object v0, Lcom/pairip/licensecheck/LicenseClient;->licenseCheckState:Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;
@@ -35,7 +34,7 @@ val installSourcePatch = bytecodePatch(
         } catch (_: Exception) {
             try {
                 LicenseCheckFingerprint.method.toMutable().apply {
-                    instructions.clear()
+                    implementation!!.instructions.clear()
                     addInstructions(0, "return-void")
                 }
             } catch (_: Exception) {}
@@ -43,7 +42,7 @@ val installSourcePatch = bytecodePatch(
 
         try {
             LocalInstallerCheckFingerprint.method.toMutable().apply {
-                instructions.clear()
+                implementation!!.instructions.clear()
                 addInstructions(0, """
                     const/4 v0, 0x1
                     return v0
@@ -53,19 +52,19 @@ val installSourcePatch = bytecodePatch(
 
         try {
             LicenseActivityOnStartFingerprint.method.toMutable().apply {
-                instructions.clear()
+                implementation!!.instructions.clear()
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}
         try {
             LicenseActivityPaywallFingerprint.method.toMutable().apply {
-                instructions.clear()
+                implementation!!.instructions.clear()
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}
         try {
             LicenseActivityErrorDialogFingerprint.method.toMutable().apply {
-                instructions.clear()
+                implementation!!.instructions.clear()
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}

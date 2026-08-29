@@ -3,6 +3,13 @@
 ### ✨ New Features
 
 * add Unlock Pro patch for IPTV Pro Stream Player ([8f120b4](https://github.com/Okazakee/iptv-morphe-patches/commit/8f120b46bdb730eb5b6cb6745ab4880128e7e1a9))
+* test new dev version for Morphe ([c7ec32a](https://github.com/Okazakee/iptv-morphe-patches/commit/c7ec32a8eaf77b801dd7d88f6f9b8387fc635796))
+
+## 1.0.0-dev.1 (2026-08-29)
+
+### ✨ New Features
+
+* add Unlock Pro patch for IPTV Pro Stream Player ([8f120b4](https://github.com/Okazakee/iptv-morphe-patches/commit/8f120b46bdb730eb5b6cb6745ab4880128e7e1a9))
 
 ## 1.0.0-dev.1 (2026-08-29)
 

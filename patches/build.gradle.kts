@@ -1,12 +1,11 @@
-group = "app.template"
+group = "app.iptv"
 
 patches {
-    // TODO: Update this section with your project details.
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
+        name = "IPTV IPTV patches"
+        description = "Unlock Pro for IPTV Pro Stream Player (com.iptvprostreamplayer.v1) - bypasses Firebase subscription_needed and RevenueCat pro entitlement"
+        source = "git@github.com:Okazakee/iptv-morphe-patches.git"
+        author = "okazakee"
         contact = "na"
         website = "na"
         license = "GPLv3"

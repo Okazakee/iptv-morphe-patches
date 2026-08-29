@@ -25,6 +25,7 @@ val installSourcePatch = bytecodePatch(
         try {
             LicenseCheckFingerprint.method.toMutable().apply {
                 implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
                 addInstructions(0, """
                     sget-object v0, Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;->FULL_CHECK_OK:Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;
                     sput-object v0, Lcom/pairip/licensecheck/LicenseClient;->licenseCheckState:Lcom/pairip/licensecheck/LicenseClient${"$"}LicenseCheckState;
@@ -35,6 +36,7 @@ val installSourcePatch = bytecodePatch(
             try {
                 LicenseCheckFingerprint.method.toMutable().apply {
                     implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
                     addInstructions(0, "return-void")
                 }
             } catch (_: Exception) {}
@@ -43,6 +45,7 @@ val installSourcePatch = bytecodePatch(
         try {
             LocalInstallerCheckFingerprint.method.toMutable().apply {
                 implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
                 addInstructions(0, """
                     const/4 v0, 0x1
                     return v0
@@ -53,19 +56,32 @@ val installSourcePatch = bytecodePatch(
         try {
             LicenseActivityOnStartFingerprint.method.toMutable().apply {
                 implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}
         try {
             LicenseActivityPaywallFingerprint.method.toMutable().apply {
                 implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
                 addInstructions(0, "return-void")
             }
         } catch (_: Exception) {}
         try {
             LicenseActivityErrorDialogFingerprint.method.toMutable().apply {
                 implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
                 addInstructions(0, "return-void")
+            }
+        } catch (_: Exception) {}
+        try {
+            PairipApplicationFingerprint.method.toMutable().apply {
+                implementation!!.instructions.clear()
+                try { implementation!!.tryBlocks.clear() } catch (_: Exception) {}
+                addInstructions(0, """
+                    invoke-super {p0, p1}, Lcom/aloj22/iptvprostreamplayer/ui/App;->attachBaseContext(Landroid/content/Context;)V
+                    return-void
+                """.trimIndent())
             }
         } catch (_: Exception) {}
     }

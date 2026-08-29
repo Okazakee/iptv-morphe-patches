@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-08-29T16:34:38",
-  "description": "## 1.0.0-dev.1 (2026-08-29)\n\n### ✨ New Features\n\n* add Unlock Pro patch for IPTV Pro Stream Player ([8f120b4](https://github.com/Okazakee/iptv-morphe-patches/commit/8f120b46bdb730eb5b6cb6745ab4880128e7e1a9))",
-  "download_url": "https://github.com/Okazakee/iptv-morphe-patches/releases/download/v1.0.0-dev.1/patches-1.0.0-dev.1.mpp",
+  "created_at": "2026-08-29T16:46:39",
+  "description": "## [1.0.0-dev.2](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.0-dev.1...v1.0.0-dev.2) (2026-08-29)\n\n### ✨ New Features\n\n* bypass Play Store install source check (Pairip) ([797bfb2](https://github.com/Okazakee/iptv-morphe-patches/commit/797bfb2507328c564075955a6afca9896f1f1a08))",
+  "download_url": "https://github.com/Okazakee/iptv-morphe-patches/releases/download/v1.0.0-dev.2/patches-1.0.0-dev.2.mpp",
   "signature_download_url": "",
-  "version": "1.0.0-dev.1"
+  "version": "1.0.0-dev.2"
 }

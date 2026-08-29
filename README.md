@@ -13,9 +13,9 @@ In Morphe Manager, add source `Okazakee/iptv-morphe-patches`, select **Unlock Pr
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.0.0-dev.1](https://github.com/Okazakee/iptv-morphe-patches/releases/tag/v1.0.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;1 patches total
+> **[v1.0.0-dev.2](https://github.com/Okazakee/iptv-morphe-patches/releases/tag/v1.0.0-dev.2)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
-<summary>📦 IPTV Pro Stream Player&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
+<summary>📦 IPTV Pro Stream Player&nbsp;&nbsp;•&nbsp;&nbsp;2 patches</summary>
 <br>
 
 **🎯 Supported versions:**
@@ -25,6 +25,7 @@ In Morphe Manager, add source `Okazakee/iptv-morphe-patches`, select **Unlock Pr
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
+| [Bypass Play Store install check (IPTV)](#bypass-play-store-install-check-iptv) | Fixes 'Local install check failed due to wrong installer.' by forcing local installer check and license check to pass. |  |
 | [Unlock Pro (IPTV)](#unlock-pro-iptv) | Deactivates subscription_needed gate and forces RevenueCat pro entitlement to active. Works offline, no server check. |  |
 
 </details>

@@ -94,3 +94,10 @@ object LicenseActivityErrorDialogFingerprint : Fingerprint(
     name = "showErrorDialog",
     returnType = "V"
 )
+
+object PairipApplicationFingerprint : Fingerprint(
+    definingClass = "Lcom/pairip/application/Application;",
+    name = "attachBaseContext",
+    returnType = "V"
+)
+

@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.1.2...v1.1.3) (2026-08-29)
+
+### 🐛 Bug Fixes
+
+* add Pairip Application attachBaseContext bypass and ensure tryBlocks cleared ([6f0b8b5](https://github.com/Okazakee/iptv-morphe-patches/commit/6f0b8b5abc316f856c904c76dd29a22b763b297a))
+
 ## [1.0.0-dev.4](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.0-dev.3...v1.0.0-dev.4) (2026-08-29)
 
 ### 🐛 Bug Fixes

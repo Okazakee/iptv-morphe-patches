@@ -25,7 +25,7 @@ In Morphe Manager, add source `Okazakee/iptv-morphe-patches`, select **Unlock Pr
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
-| [Unlock Pro (IPTV)](#unlock-pro-iptv) | Deactivates subscription_needed gate and forces RevenueCat pro entitlement to active. Works offline, no server check. |  |
+| [Unlock Pro (IPTV)](#unlock-pro-iptv) | Deactivates subscription_needed, forces the pro entitlement active, and spoofs Google Play for app-internal installer-source checks. |  |
 
 </details>
 

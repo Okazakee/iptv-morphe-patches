@@ -14,24 +14,24 @@ val unlockProPatch = bytecodePatch(
     dependsOn(spoofPlayStoreInstallerSourcePatch)
 
     execute {
-        SubscriptionNeededAFingerprint.mutableMethod.addInstructions(0, """
+        SubscriptionNeededAFingerprint.method.addInstructions(0, """
             const/4 v0, 0x0
             return v0
         """.trimIndent())
         try {
-            SubscriptionNeededBFingerprint.mutableMethod.addInstructions(0, """
+            SubscriptionNeededBFingerprint.method.addInstructions(0, """
                 const/4 v0, 0x0
                 return v0
             """.trimIndent())
         } catch (_: Exception) {}
         try {
-            ProEntitlementWFingerprint.mutableMethod.addInstructions(0, """
+            ProEntitlementWFingerprint.method.addInstructions(0, """
                 sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
                 return-object v0
             """.trimIndent())
         } catch (_: Exception) {}
         try {
-            ProEntitlementXFingerprint.mutableMethod.addInstructions(0, """
+            ProEntitlementXFingerprint.method.addInstructions(0, """
                 sget-object v0, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
                 return-object v0
             """.trimIndent())

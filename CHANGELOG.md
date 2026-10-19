@@ -1,3 +1,9 @@
+## [1.2.0-dev.1](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.1.0...v1.2.0-dev.1) (2026-10-19)
+
+### ✨ New Features
+
+* support French localized build (com.iptvprostreamplayer.v1.fr) ([262057a](https://github.com/Okazakee/iptv-morphe-patches/commit/262057a96d8144527ef3dc272ba050932688fe8b))
+
 ## [1.1.0](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.2...v1.1.0) (2026-10-19)
 
 ### ✨ New Features

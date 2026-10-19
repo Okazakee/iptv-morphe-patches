@@ -10,6 +10,7 @@ val unlockProPatch = bytecodePatch(
     default = true
 ) {
     compatibleWith(Constants.COMPATIBILITY_IPTV)
+    compatibleWith(Constants.COMPATIBILITY_IPTV_FR)
 
     dependsOn(spoofPlayStoreInstallerSourcePatch)
 

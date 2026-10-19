@@ -4,6 +4,12 @@
 
 * support IPTV Pro Stream Player 2.7.21 ([d471132](https://github.com/Okazakee/iptv-morphe-patches/commit/d471132ccb02fac4078a25f6b7d45f129d4a6913))
 
+## [1.1.0](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.2...v1.1.0) (2026-10-19)
+
+### ✨ New Features
+
+* support IPTV Pro Stream Player 2.7.21 ([d471132](https://github.com/Okazakee/iptv-morphe-patches/commit/d471132ccb02fac4078a25f6b7d45f129d4a6913))
+
 ## [1.0.2](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.0.1...v1.0.2) (2026-10-01)
 
 ### 🐛 Bug Fixes

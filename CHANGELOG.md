@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.2.0...v1.3.0) (2026-10-27)
+
+### ✨ New Features
+
+* support app 2.7.24 ([635f21c](https://github.com/Okazakee/iptv-morphe-patches/commit/635f21c56c5ba375f57b5b27cb6e915f85e045c3))
+
 ## [1.3.0-dev.1](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.2.0...v1.3.0-dev.1) (2026-10-27)
 
 ### ✨ New Features

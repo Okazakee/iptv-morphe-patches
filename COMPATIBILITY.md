@@ -19,6 +19,11 @@ bundle; this file is the human-readable history behind that list.
 checked instruction-by-instruction after decoding — not just that the patcher printed
 `Applied`.
 
+In Morphe the two packages are listed as **IPTV Pro Stream Player** (global) and
+**IPTV Pro Stream Player (FR)**. Pick the entry that matches the APK you are attaching:
+selecting the global entry and then choosing the `.fr` APK ends in “Wrong package
+selected”.
+
 ## Release history
 
 | Bundle | Date | App versions | Notes |

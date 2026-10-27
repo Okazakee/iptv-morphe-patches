@@ -19,7 +19,7 @@ object Constants {
     )
 
     val COMPATIBILITY_IPTV_FR = Compatibility(
-        name = "IPTV Pro Stream Player",
+        name = "IPTV Pro Stream Player (FR)",
         packageName = "com.iptvprostreamplayer.v1.fr",
         apkFileType = ApkFileType.APK,
         appIconColor = 0x3DB8FF,

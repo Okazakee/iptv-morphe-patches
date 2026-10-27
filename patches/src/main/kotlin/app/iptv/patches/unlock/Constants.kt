@@ -11,10 +11,10 @@ object Constants {
         apkFileType = ApkFileType.APK,
         appIconColor = 0x3DB8FF,
         targets = listOf(
-            AppTarget(version = "1.2.7", versionCodes = mapOf()),
-            AppTarget(version = "2.7.17", versionCodes = mapOf()),
-            AppTarget(version = "2.7.21", versionCodes = mapOf()),
-            AppTarget(version = "2.7.24", versionCodes = mapOf())
+            AppTarget(version = "1.2.7", versionCodes = mapOf(), description = "Older target · pre-2.7.21"),
+            AppTarget(version = "2.7.17", versionCodes = mapOf(), description = "Older target · pre-2.7.21"),
+            AppTarget(version = "2.7.21", versionCodes = mapOf(), description = "Verified 2026-10-19 · vc204"),
+            AppTarget(version = "2.7.24", versionCodes = mapOf(), description = "Verified 2026-10-27 · vc207")
         )
     )
 
@@ -24,8 +24,8 @@ object Constants {
         apkFileType = ApkFileType.APK,
         appIconColor = 0x3DB8FF,
         targets = listOf(
-            AppTarget(version = "2.7.21", versionCodes = mapOf()),
-            AppTarget(version = "2.7.24", versionCodes = mapOf())
+            AppTarget(version = "2.7.21", versionCodes = mapOf(), description = "Verified 2026-10-19 · vc204"),
+            AppTarget(version = "2.7.24", versionCodes = mapOf(), description = "Verified 2026-10-27 · vc207")
         )
     )
 }

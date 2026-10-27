@@ -4,6 +4,8 @@ Custom Morphe patches for **IPTV Pro Stream Player** (`com.iptvprostreamplayer.v
 
 Unlocks the Pro subscription locally by bypassing the Firebase `subscription_needed` flag and forcing the RevenueCat `pro` entitlement to active. Works fully offline — no server validation. Play Store install check bypass is provided via direct APK (`patched-signed.apk`).
 
+**Which app versions are supported:** see [COMPATIBILITY.md](COMPATIBILITY.md) for the supported builds, their verification status and the full release history. Morphe Manager only offers the versions declared in the bundle and refuses anything else.
+
 ### How to use these patches
 
 Click here to add these patches to Morphe: https://morphe.software/add-source?github=Okazakee/iptv-morphe-patches

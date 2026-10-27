@@ -13,15 +13,15 @@ In Morphe Manager, add source `Okazakee/iptv-morphe-patches`, select **Unlock Pr
 ## 🩹 Patches list
 
 <!-- PATCHES_START EXPANDED -->
-> **[v1.2.0](https://github.com/Okazakee/iptv-morphe-patches/releases/tag/v1.2.0)**&nbsp;&nbsp;•&nbsp;&nbsp;`main`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
+> **[v1.3.0-dev.1](https://github.com/Okazakee/iptv-morphe-patches/releases/tag/v1.3.0-dev.1)**&nbsp;&nbsp;•&nbsp;&nbsp;`dev`&nbsp;&nbsp;•&nbsp;&nbsp;2 patches total
 <details open>
 <summary>📦 IPTV Pro Stream Player&nbsp;&nbsp;•&nbsp;&nbsp;1 patch</summary>
 <br>
 
 **🎯 Supported versions:**
 
-| 1.2.7 | 2.7.17 | 2.7.21 |
-| :---: | :---: | :---: |
+| 1.2.7 | 2.7.17 | 2.7.21 | 2.7.24 |
+| :---: | :---: | :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|
@@ -35,8 +35,8 @@ In Morphe Manager, add source `Okazakee/iptv-morphe-patches`, select **Unlock Pr
 
 **🎯 Supported versions:**
 
-| 2.7.21 |
-| :---: |
+| 2.7.21 | 2.7.24 |
+| :---: | :---: |
 
 | 💊&nbsp;Patch | 📜&nbsp;Description | ⚙️&nbsp;Options |
 |----------|----------------|-----------|

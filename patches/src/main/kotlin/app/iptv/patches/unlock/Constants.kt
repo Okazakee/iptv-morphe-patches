@@ -13,7 +13,8 @@ object Constants {
         targets = listOf(
             AppTarget(version = "1.2.7", versionCodes = mapOf()),
             AppTarget(version = "2.7.17", versionCodes = mapOf()),
-            AppTarget(version = "2.7.21", versionCodes = mapOf())
+            AppTarget(version = "2.7.21", versionCodes = mapOf()),
+            AppTarget(version = "2.7.24", versionCodes = mapOf())
         )
     )
 
@@ -23,7 +24,8 @@ object Constants {
         apkFileType = ApkFileType.APK,
         appIconColor = 0x3DB8FF,
         targets = listOf(
-            AppTarget(version = "2.7.21", versionCodes = mapOf())
+            AppTarget(version = "2.7.21", versionCodes = mapOf()),
+            AppTarget(version = "2.7.24", versionCodes = mapOf())
         )
     )
 }

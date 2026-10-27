@@ -1,3 +1,9 @@
+## [1.3.2](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.3.1...v1.3.2) (2026-10-27)
+
+### 🐛 Bug Fixes
+
+* name the French build separately in Morphe ([ceac4a3](https://github.com/Okazakee/iptv-morphe-patches/commit/ceac4a361bb033a23368034c9b3dd171812a73cf))
+
 ## [1.3.2-dev.1](https://github.com/Okazakee/iptv-morphe-patches/compare/v1.3.1...v1.3.2-dev.1) (2026-10-27)
 
 ### 🐛 Bug Fixes
